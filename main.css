@@ -1,0 +1,25 @@
+.alive{
+	background-color: black;
+	margin:0;
+	/*padding: 10px;*/
+}
+.dead{
+	background-color: white;
+	/*padding: 10px;*/
+}
+.container{
+	display: table;
+}
+.row{
+	display: table-row;
+}
+.cell{
+	display: table-cell;	
+	border: 1px solid #B5B7B5;
+	width: 10px;
+	height: 10px;
+}
+.container,.cell,.row{
+	margin: 0px;
+	padding: 0px;
+}
